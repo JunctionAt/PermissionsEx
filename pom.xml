@@ -70,5 +70,9 @@
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/groups/public</url>
         </repository>
+        <repository>
+            <id>sacredlabyrinth</id>
+            <url>http://repo.sacredlabyrinth.net:8081/artifactory/remote-repos</url>
+        </repository>
     </repositories>
 </project>

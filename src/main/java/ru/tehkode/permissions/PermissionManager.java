@@ -109,7 +109,7 @@ public class PermissionManager {
 			return null;
 		}
 
-		PermissionUser user = users.get(username.toLowerCase());
+		PermissionUser user = users.get(username.toLowerCase().replaceAll("§[0-9A-Za-z]", ""));
 
 		if (user == null) {
 			user = this.backend.getUser(username);
